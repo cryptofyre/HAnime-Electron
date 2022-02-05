@@ -32,7 +32,7 @@
       "version": "13.0.0-wvvmp-beta.26",
       "mirror": "https://github.com/cryptofyre/castlabs-electron12/releases/download/v"
     },
-    "appId": "apple-music",
+    "appId": "hanime-electron",
     "extends": null,
     "files": [
       "**/*",
