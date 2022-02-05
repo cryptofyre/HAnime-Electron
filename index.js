@@ -38,7 +38,7 @@ function createWindow () {
   win.webContents.on('media-started-playing', function() {
     client.updatePresence({
         state: "on HAnime",
-        details: "Watching Hentai",
+        details: "Watching family friendly content",
         startTimestamp: Date.now(),
         largeImageKey: 'nice',
         smallImageKey: 'me',
@@ -50,7 +50,7 @@ function createWindow () {
   win.webContents.on('media-paused', function() {
       client.updatePresence({
         state: "on HAnime",
-        details: "Watching HAnime (Paused)",
+        details: "Watching family friendly content (Paused)",
         StartTimestamp: Date.now(),
         largeImageKey: 'nice',
         smallImageKey: 'me',
@@ -61,7 +61,7 @@ function createWindow () {
         // Start rich presence service into idle mode.
   client.updatePresence({
     state: 'on HAnime',
-    details: 'Browsing Hentai and Anime',
+    details: 'Browsing family friendly content.',
     startTimestamp: Date.now(),
     largeImageKey: 'nice',
     smallImageKey: 'me',
